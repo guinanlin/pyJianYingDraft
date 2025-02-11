@@ -44,4 +44,4 @@ text_segment = draft.Text_segment("据说pyJianYingDraft效果还不错?", trang
 script.add_segment(text_segment)
 
 # 保存草稿（覆盖掉原有的draft_content.json）
-script.dump("C:\Users\Administrator\AppData\Local\JianyingPro\User Data\Projects\com.lveditor.draft\2月11日\draft_content.json")
+script.dump(r"C:\Users\Administrator\AppData\Local\JianyingPro\User Data\Projects\com.lveditor.draft\2月11日\draft_content.json")
